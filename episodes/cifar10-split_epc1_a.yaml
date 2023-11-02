@@ -1,3 +1,5 @@
+# Creating 5-Taks for Continual Learning Paradigm
+
 - subsets: [['cifar10', 7], ['cifar10', 6]]
 - subsets: [['cifar10', 2], ['cifar10', 3]]
 - subsets: [['cifar10', 0], ['cifar10', 1]]
