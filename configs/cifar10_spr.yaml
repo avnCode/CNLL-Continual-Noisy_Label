@@ -15,10 +15,10 @@ nb_classes: 10
 corruption_percent: 0.4
 asymmetric_noise: False 
 
-x_c: 3
-x_h: 32
-x_w: 32
-y_c: 10
+x_c: 3      #Channel
+x_h: 32     #Image height
+x_w: 32     #Image Width
+y_c: 10     #Length of output classes
 
 device: 'cuda:0'
 
