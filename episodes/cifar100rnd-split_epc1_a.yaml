@@ -1,3 +1,4 @@
+# These subsets indicates 20-Tasks for Continual Learning Paradigm
 - subsets:
   - - cifar100
     - 65
