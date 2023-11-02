@@ -1,3 +1,5 @@
+#1 - n represents the probability of the correct label, and n represents the probability of the incorrect label.
+
 import numpy as np
 from numpy.testing import assert_array_almost_equal
 
@@ -173,9 +175,11 @@ def noisify_cifar10_asymmetric(y_train, noise, random_state=None):
     P = np.eye(nb_classes)
     n = noise
 
+    
+
     if n > 0.0:
         # automobile <- truck
-        P[9, 9], P[9, 1] = 1. - n, n
+        P[9, 9], P[9, 1] = 1. - n, n            #1 - n represents the probability of the correct label, and n represents the probability of the incorrect label.
 
         # bird -> airplane
         P[2, 2], P[2, 0] = 1. - n, n
