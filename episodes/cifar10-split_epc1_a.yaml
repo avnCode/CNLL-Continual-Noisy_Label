@@ -1,7 +1,7 @@
 # Creating 5-Taks for Continual Learning Paradigm
 
-- subsets: [['cifar10', 7], ['cifar10', 6]]
-- subsets: [['cifar10', 2], ['cifar10', 3]]
-- subsets: [['cifar10', 0], ['cifar10', 1]]
-- subsets: [['cifar10', 5], ['cifar10', 9]]
-- subsets: [['cifar10', 8], ['cifar10', 4]]
+- subsets: [['cifar10', 7], ['cifar10', 6]]    #Horse, Frog
+- subsets: [['cifar10', 2], ['cifar10', 3]]    #Bird, Cat
+- subsets: [['cifar10', 0], ['cifar10', 1]]    #Airplane, Automobile
+- subsets: [['cifar10', 5], ['cifar10', 9]]    #Dog, Truck
+- subsets: [['cifar10', 8], ['cifar10', 4]]    #Ship, Deer
