@@ -25,8 +25,11 @@ device: 'cuda:0'
 ##############
 # SPR params #
 ##############
+
+#Model customized for ssl:
 net: 'resnet_simclr18'
 
+#only 25% buffer being used compared to SPR
 purified_buffer_size: 500
 purified_buffer_q_poa: 0.0 # power of allocation
 
@@ -35,6 +38,7 @@ delayed_buffer_q_poa: 0.0 # power of allocation
 
 E_max: 5
 
+#epochs SPR-->CNLL: 5000-->150
 expert_train_epochs: 150
 expert_batch_size: 500
 
