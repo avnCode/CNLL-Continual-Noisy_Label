@@ -1,3 +1,4 @@
+#P: Transition Matrix, includes probability
 #1 - n represents the probability of the correct label, and n represents the probability of the incorrect label.
 
 import numpy as np
